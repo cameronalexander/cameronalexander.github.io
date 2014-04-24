@@ -1,0 +1,61 @@
+---
+layout: default
+title: Director | Cameron Alexander
+---
+
+<div class="reel-container" style="background-image: url({{site.data.hero.background_image}});">
+  <div class="container-12 no-bot-margin">
+    <div class="grid-12 headline">
+      <img class="logo" src="{{site.data.hero.text_image}}" alt="{{page.title}}" />
+    </div>
+    {% if site.data.hero.reel_url %}
+    <div class="grid-12">
+      <iframe id="reel" data-height="{{site.data.hero.reel_height}}" data-width="{{site.data.hero.reel_width}}" src="{{site.data.hero.reel_url}}" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="secondary-container">
+  <div class='sub-head-container'>
+    <ul class="socialmedia container-12 no-bot-margin">
+      <!--
+      {% for social in site.data.contact.social %}
+      --><li class="sub-head grid-4">
+        <a href="{{social.url}}">
+          {% if social.image_url %}
+          <img src="{{social.image_url}}" alt="{{social.name}}" />
+          {% endif %}
+          {{social.name}}
+        </a>
+      </li><!--
+      {% endfor %}
+      -->
+    </ul>
+  </div>
+  <div class="container-12 no-bot-margin">
+    <!--
+    {% for video in site.data.videos %}
+    --><a class="pvideo ibox grid-4 {{video.type}}" data-id="{{video.id}}"
+          {% if video.type == "vimeo" %}
+              href="//player.vimeo.com/video/{{video.id}}?byline=0&amp;portrait=0"
+          {% else %}
+              href="//www.youtube.com/embed/{{video.id}}"
+          {% endif %}>
+      <div class="thumbnail-wrapper">
+        <img class="thumbnail"
+        {% if video.type == "youtube" %}
+          src="http://img.youtube.com/vi/{{video.id}}/hqdefault.jpg"
+        {% endif %}
+        alt="{{video.type}} thumbnail" />
+      </div>
+      <h3 class="title">{{video.title}}</h3>
+    </a><!--
+    {% endfor %}
+    -->
+  </div>
+  <!-- end .container-16 -->
+</div>
+
+
+

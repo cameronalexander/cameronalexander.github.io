@@ -1,0 +1,15 @@
+email: cameronalexander.ca@gmail.com
+phone: (805) 440-0621
+social:
+  - name: twitter
+    url: http://twitter.com/CameronAlxander
+    image_url: http://www.google.com/s2/u/0/favicons?domain=twitter.com
+  - name: cameronalexander.ca@gmail.com
+    url: mailto:cameronalexander.ca@gmail.com
+  # - name: facebook
+  #   url: http://www.facebook.com/allfortheshire
+  #   image_url: http://www.google.com/s2/u/0/favicons?domain=www.facebook.com
+  - name: vimeo
+    url: http://vimeo.com/cameronalexander
+    image_url: http://www.google.com/s2/u/0/favicons?domain=vimeo.com
+
