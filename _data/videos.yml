@@ -1,18 +1,21 @@
-- type: youtube
-  title: Kirstinia DeBarge - Cry Wolf
-  id: YRtajy8GL-w
+  type: youtube
+  title: Riff Raff - Hologram Benz (flux pavilion)
+  id: FtjUQX7kOvk
 - type: youtube
   title: Night Riots (PK) - Berelain
   id: KjzCxRFoy-c
+  type: youtube
+  title: Briertone - I Am Jacob
+  id: UBwT4C8DP3I
 - type: youtube
   title: A Past Unknown - Cursed
   id: bWuuCo4gmkQ
 - type: youtube
   title: John Miller - Mr. Bright Idea
   id: 72s526E5r2g
-- type: youtube
-  title: The Nature - Cro-Magnon
-  id: 3gZghbaxgMo
+  - type: youtube
+  title: Kirstinia DeBarge - Cry Wolf
+  id: YRtajy8GL-w
 - type: youtube
   title: Boogz Boogetz - Sucker Free
   id: Kd7IH4xyvsA
@@ -22,12 +25,12 @@
 - type: youtube
   title: John Miller - Seedlings
   id: h2ZCsJAgRi0
+  - type: youtube
+  title: The Nature - Cro-Magnon
+  id: 3gZghbaxgMo
 - type: youtube
   title: A Past Unknown - What If You're Wrong
   id: mZ98g3JGz4E
-  type: youtube
-  title: Riff Raff - Hologram Benz (flux pavilion)
-  id: FtjUQX7kOvk
 - type: youtube
   title: Life On Repeat - Struggle + Sleep
   id: uhEVVmlenlY
